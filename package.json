@@ -1,0 +1,22 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "sass": "^1.77.4",
+    "vite-plugin-lazy-import": "^1.0.2",
+    "vue": "^3.4.21",
+    "vxe-pc-ui": "^1.9.2",
+    "vxe-table": "^4.7.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}
