@@ -1,22 +1,31 @@
 {
-  "name": "my-vue-app",
-  "private": true,
+  "name": "multi-page-vite-v3",
   "version": "0.0.0",
-  "type": "module",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:unit": "vitest --environment jsdom --root src/",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "sass": "^1.77.4",
-    "vite-plugin-lazy-import": "^1.0.2",
-    "vue": "^3.4.21",
-    "vxe-pc-ui": "^1.9.2",
-    "vxe-table": "^4.7.4"
+    "pinia": "^2.0.28",
+    "postcss-mobile-forever": "^4.3.2",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.4",
-    "vite": "^5.2.0"
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/test-utils": "^2.2.6",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "jsdom": "^20.0.3",
+    "prettier": "^2.7.1",
+    "vite": "^4.0.0",
+    "vitest": "^0.25.6"
   }
 }
