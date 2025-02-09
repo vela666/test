@@ -1,12 +1,17 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import A from './views/A.vue'
+import A1 from './views/A1.vue'
+import A2 from './views/A2.vue'
 </script>
 
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+<A/>
+<A1/>
+<!--<A2/>-->
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
 
