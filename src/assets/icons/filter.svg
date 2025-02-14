@@ -1,0 +1,8 @@
+<svg id="表头筛选-未选择" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="矩形_1108" data-name="矩形 1108" width="24" height="24" rx="2" fill="none"/>
+  <g id="列表筛选" transform="translate(5 8)">
+    <line id="直线_275" data-name="直线 275" x2="14" fill="none" stroke="#86919d" stroke-linecap="round" stroke-width="2"/>
+    <line id="直线_276" data-name="直线 276" x2="10" transform="translate(2 4)" fill="none" stroke="#86919d" stroke-linecap="round" stroke-width="2"/>
+    <line id="直线_277" data-name="直线 277" x2="4" transform="translate(5 8)" fill="none" stroke="#86919d" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

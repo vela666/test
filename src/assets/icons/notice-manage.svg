@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="消息管理1" transform="translate(-77.216 -100.152)">
+    <rect id="矩形_122" data-name="矩形 122" width="18" height="18" transform="translate(77.216 100.152)" fill="none"/>
+    <path id="矩形_123" data-name="矩形 123" d="M79.216,102.124h14v14h-14Z" fill="none"/>
+    <g id="消息" transform="translate(-1554.784 -182.848)">
+      <g id="组_268" data-name="组 268" transform="translate(-41 17)">
+        <rect id="矩形_128" data-name="矩形 128" width="18" height="18" transform="translate(1673 266)" fill="none"/>
+      </g>
+      <g id="组_269" data-name="组 269" transform="translate(702.217 117.246)">
+        <path id="路径_29" data-name="路径 29" d="M941.129,180.9h0a1.8,1.8,0,0,1-1.8,1.8h-.023a1.794,1.794,0,0,1-1.794-1.8h0" transform="translate(-0.537 -1.257)" fill="none" stroke="#86919d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="路径_30" data-name="路径 30" d="M933.444,179.33v-5.343a4.942,4.942,0,0,1,4.97-4.913h1.018a4.942,4.942,0,0,1,4.97,4.913v5.343" transform="translate(-0.138 -0.098)" fill="none" stroke="#86919d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="直线_31" data-name="直线 31" x2="13.501" transform="translate(932.033 179.232)" fill="none" stroke="#86919d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="直线_32" data-name="直线 32" y2="0.715" transform="translate(938.785 168.069)" fill="none" stroke="#86919d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

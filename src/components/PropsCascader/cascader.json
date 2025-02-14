@@ -1,0 +1,435 @@
+{
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "common": {
+      "A00": "总次数",
+      "A01": "触发用户数",
+      "A02": "人均次数"
+    },
+    "field": [
+      {
+        "fId": 3,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "活动进度996",
+        "fType": "datetime",
+        "permissionStatus": true,
+        "fEn": "A1111"
+      },
+      {
+        "fId": 5,
+        "filedType": 2,
+        "hasDimension": 1,
+        "fZh": "活动轮数",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "activity_rounds"
+      },
+      {
+        "fId": 870,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "1232432(维度属性)",
+        "fType": "string",
+        "permissionStatus": true,
+        "fEn": "activity_rounds__activity_rounds_name",
+        "fieldId": 5
+      },
+      {
+        "fId": 872,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "fghdfgh(维度属性)",
+        "fType": "string",
+        "permissionStatus": true,
+        "fEn": "activity_rounds__activity_rounds_name1",
+        "fieldId": 5
+      },
+      {
+        "fId": 874,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "sdfhgfsdr(维度属性)",
+        "fType": "string",
+        "permissionStatus": true,
+        "fEn": "activity_rounds__activity_rounds_name2",
+        "fieldId": 5
+      },
+      {
+        "fId": 871,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "343gbfghngdh(维度属性)",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "activity_rounds__activity_rounds_sale",
+        "fieldId": 5
+      },
+      {
+        "fId": 873,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "fggggggggdhh(维度属性)",
+        "fType": "int",
+        "permissionStatus": true,
+        "fEn": "activity_rounds__activity_rounds_sale1",
+        "fieldId": 5
+      },
+      {
+        "fId": 875,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "dfgs(维度属性)",
+        "fType": "int",
+        "permissionStatus": true,
+        "fEn": "activity_rounds__activity_rounds_sale2",
+        "fieldId": 5
+      },
+      {
+        "fId": 6,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "活动类型",
+        "fType": "string",
+        "permissionStatus": true,
+        "fEn": "activity_type"
+      },
+      {
+        "fId": 9,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "广告点位状态",
+        "fType": "string",
+        "permissionStatus": true,
+        "fEn": "ads_status"
+      },
+      {
+        "fId": 10,
+        "filedType": 2,
+        "hasDimension": 1,
+        "fZh": "资源改变的数量",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "amount"
+      },
+      {
+        "fId": 802,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "RRR(维度属性)",
+        "fType": "string",
+        "permissionStatus": true,
+        "fEn": "amount__amount1",
+        "fieldId": 10
+      },
+      {
+        "fId": 803,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "TYTT(维度属性)",
+        "fType": "string",
+        "permissionStatus": true,
+        "fEn": "amount__amount2",
+        "fieldId": 10
+      },
+      {
+        "fId": 804,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "EEQQQQ(维度属性)",
+        "fType": "string",
+        "permissionStatus": true,
+        "fEn": "amount__amount3",
+        "fieldId": 10
+      },
+      {
+        "fId": 805,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "RRRR(维度属性)",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "amount__amount4",
+        "fieldId": 10
+      },
+      {
+        "fId": 798,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "CCCCCC(维度属性)",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "amount__amount_1",
+        "fieldId": 10
+      },
+      {
+        "fId": 799,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "DDDD(维度属性)",
+        "fType": "int",
+        "permissionStatus": true,
+        "fEn": "amount__amount_2",
+        "fieldId": 10
+      },
+      {
+        "fId": 800,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "EESSS(维度属性)",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "amount__amount_3",
+        "fieldId": 10
+      },
+      {
+        "fId": 801,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "DDD(维度属性)",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "amount__amount_4",
+        "fieldId": 10
+      },
+      {
+        "fId": 796,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "aa(维度属性)",
+        "fType": "string",
+        "permissionStatus": true,
+        "fEn": "amount__amount_one",
+        "fieldId": 10
+      },
+      {
+        "fId": 797,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "BB(维度属性)",
+        "fType": "string",
+        "permissionStatus": true,
+        "fEn": "amount__amount_two",
+        "fieldId": 10
+      },
+      {
+        "fId": 11,
+        "filedType": 2,
+        "hasDimension": 1,
+        "fZh": "www",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "ASD"
+      },
+      {
+        "fId": 940,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "asdName(维度属性)",
+        "fType": "string",
+        "permissionStatus": true,
+        "fEn": "ASD__name",
+        "fieldId": 11
+      },
+      {
+        "fId": 942,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "asdnum(维度属性)",
+        "fType": "int",
+        "permissionStatus": true,
+        "fEn": "ASD__num",
+        "fieldId": 11
+      },
+      {
+        "fId": 941,
+        "filedType": 3,
+        "hasDimension": 0,
+        "fZh": "asdtype(维度属性)",
+        "fType": "string",
+        "permissionStatus": true,
+        "fEn": "ASD__type",
+        "fieldId": 11
+      },
+      {
+        "fId": 67,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "是否从后台唤醒",
+        "fType": "boolean",
+        "permissionStatus": true,
+        "fEn": "test_boolean"
+      },
+      {
+        "fId": 296,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "布尔测试",
+        "fType": "boolean",
+        "permissionStatus": true,
+        "fEn": "buer_test"
+      },
+      {
+        "fId": 489,
+        "filedType": 4,
+        "hasDimension": 0,
+        "fZh": "__first_start_time转月(虚拟属性)",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "month_test"
+      },
+      {
+        "fId": 496,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "测试布尔事件属性",
+        "fType": "boolean",
+        "permissionStatus": true,
+        "fEn": "booler_test"
+      },
+      {
+        "fId": 534,
+        "filedType": 4,
+        "hasDimension": 0,
+        "fZh": "虚拟属性20221013(虚拟属性)",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "xuni20221013"
+      },
+      {
+        "fId": 535,
+        "filedType": 4,
+        "hasDimension": 0,
+        "fZh": "虚拟内购付费金额(虚拟属性)",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "xunineigou"
+      },
+      {
+        "fId": 536,
+        "filedType": 4,
+        "hasDimension": 0,
+        "fZh": "虚拟资源测试(虚拟属性)",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "ziyuanxuni"
+      },
+      {
+        "fId": 556,
+        "filedType": 4,
+        "hasDimension": 0,
+        "fZh": "资源获得虚拟属性(虚拟属性)",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "ziyuanhuodexuni"
+      },
+      {
+        "fId": 558,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "测试类型3个小数",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "ceshi_event_3"
+      },
+      {
+        "fId": 559,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "测试类型为整型",
+        "fType": "int",
+        "permissionStatus": true,
+        "fEn": "ceshi_event_int"
+      },
+      {
+        "fId": 560,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "测试类型2个小数",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "ceshi_event_2"
+      },
+      {
+        "fId": 561,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "测试类型0个小数",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "ceshi_event_0"
+      },
+      {
+        "fId": 580,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "测试类型66",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "ceshi_event_66"
+      },
+      {
+        "fId": 583,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "测试类型22",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "ceshi_event_22"
+      },
+      {
+        "fId": 584,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "测试类型00",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "ceshi_event_00"
+      },
+      {
+        "fId": 623,
+        "filedType": 2,
+        "hasDimension": 0,
+        "fZh": "小数aa",
+        "fType": "double",
+        "permissionStatus": true,
+        "fEn": "aaa"
+      }
+    ],
+    "config": {
+      "datetime": {
+        "A09": "去重数"
+      },
+      "boolean": {
+        "A10": "为真数",
+        "A11": "为假数",
+        "A09": "去重数"
+      },
+      "string": {
+        "A09": "去重数"
+      },
+      "double": {
+        "A03": "总和",
+        "A04": "均值",
+        "A05": "人均值",
+        "A06": "中位数",
+        "A07": "最大值",
+        "A08": "最小值",
+        "A09": "去重数"
+      },
+      "int": {
+        "A03": "总和",
+        "A04": "均值",
+        "A05": "人均值",
+        "A06": "中位数",
+        "A07": "最大值",
+        "A08": "最小值",
+        "A09": "去重数"
+      },
+      "timestamp": {
+        "A09": "去重数"
+      }
+    }
+  }
+}

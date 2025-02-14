@@ -1,0 +1,96 @@
+:root {
+  /* ----- 颜色 ----- */
+  /* -主色调- */
+  --eas-color-primary: #5473e8;
+  --eas-color-primary-hover: #6d87eb;
+  --eas-color-primary-light: #dde3fb;
+  --eas-color-primary-light-1: #f5f7fe;
+  --eas-color-primary-light-2: #f0f2fd;
+  --eas-color-primary-light-3: #edeff2;
+  --eas-color-primary-disabled: #bac6f5;
+  --eas-hover-color: #f6f6f9;
+  --eas-hover-color-1: #f1f1f5;
+  --eas-hover-color-2: #f5f7fa;
+  --eas-hover-color-3: #bfbfbf;
+  --eas-hover-color-4: #f2f2f2;
+  /* -辅助色- */
+  //success
+  --eas-color-success: #1ecc57;
+  --eas-color-success-light: #d2f5dd;
+  --eas-color-success-light-1: #e8faee;
+  //warning
+  --eas-color-warning: #ff9f24;
+  --eas-color-warning-light: #ffecd3;
+  --eas-color-warning-light-1: #fff5e8;
+  //danger
+  --eas-color-danger: #f56c6c;
+  --eas-color-danger-light: #fde1e1;
+  --eas-color-danger-light-1: #fef0f0;
+  //error
+  --eas-color-error: #f56c6c;
+  --eas-color-error-light: #fde1e1;
+  --eas-color-error-light-1: #fef0f0;
+  /* -文字颜色- */
+  //标题文字颜色
+  --eas-text-color: #1c2028;
+  --eas-text-color-1: #1f1f1f;
+  //普通文本颜色
+  --eas-text-color-2: #616161;
+  --eas-text-color-primary: #545e6e;
+  --eas-text-color-light: #86919d;
+  --eas-text-color-light-1: #cbd0d6;
+  /* -线框、分割线颜色- */
+  --eas-border-color: #e7e7ea;
+  --eas-border-color-2: #dedede;
+  --eas-border-color-3: #8a8a8a;
+  --eas-border-color-light: #f7f7fb;
+  --eas-split-line-color: #e7e7ea;
+  --eas-split-line-color-light: #f7f7fb;
+  /* -svg-hover颜色- */
+  --eas-svg-hover-color: #e7e7ea;
+  /* -重置el-message颜色- */
+  // info
+  --eas-message-info-bg-color: #e8f3ff;
+  --eas-message-info-text-color: #007dff;
+  //success
+  --eas-message-success-bg-color: #eaffe6;
+  --eas-message-success-text-color: #00b42a;
+  //warning
+  --eas-message-warning-bg-color: #fff7e8;
+  --eas-message-warning-text-color: #ff7d00;
+  //error
+  --eas-message-error-bg-color: #fef0f0;
+  --eas-message-error-text-color: #f53f3f;
+  --eas-message-close-color: #ababab;
+  /* ----- 字体大小 ----- */
+  --eas-font-size-extra-large: 20px;
+  --eas-font-size-large: 18px;
+  --eas-font-size-medium: 16px;
+  --eas-font-size-base: 14px;
+  --eas-font-size-small: 12px;
+  --eas-font-size-26: 26px;
+  --eas-font-size-17: 17px;
+  /* ----- 字体font-weight ----- */
+  --eas-font-weight-400: 400;
+  /* ----- 字体font-family ----- */
+  --eas-font-family: 'Helvetica Neue', Helvetica, 'PingFang SC',
+    'Microsoft YaHei', Arial, sans-serif;
+  /* ----- 边框 ----- */
+  --eas-border-base: 1px solid var(--eas-text-color-light-1);
+  /* ----- 四周圆角设置 ----- */
+  --eas-border-radius: 2px;
+  --eas-border-radius-4: 4px;
+  // 登录表单radius
+  --eas-login-form-radius: 26px;
+  /* ----- box-shadow ----- */
+  --eas-box-shadow-light: 0px 3px 6px 1px rgba(28, 32, 40, 0.18);
+  --eas-box-shadow-login-form: 0px 0px 20px 1px rgba(40, 64, 87, 0.18);
+  //子菜单项高度
+  --eas-menu-item-height: 40px;
+  //白色背景
+  --eas-white-bg-color: #fff;
+  //登录表单
+  --eas-boder-bottom-box-shadow: 0px 1px var(--eas-border-color-3);
+  --eas-boder-bottom-box-shadow-error: 0px 1px var(--eas-color-error);
+  --eas-color-bac6f5: #bac6f5;
+}

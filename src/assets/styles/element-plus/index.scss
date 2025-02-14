@@ -1,0 +1,21 @@
+// 重置主题色
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #5473e8,
+    ),
+    'success': (
+      'base': #1ecc57,
+    ),
+    'warning': (
+      'base': #ff9f24,
+    ),
+    'danger': (
+      'base': #f56c6c,
+    ),
+    'error': (
+      'base': #f56c6c,
+    ),
+  )
+);
+@use 'element-plus/theme-chalk/src/index.scss' as *;

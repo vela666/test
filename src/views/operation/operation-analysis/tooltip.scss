@@ -1,0 +1,30 @@
+.nd-chart-tootip {
+  position: relative;
+  display: flex;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+}
+.nd-table-custom {
+  width: 357px;
+  border-radius: 4px;
+}
+.nd-chart-tootip-more {
+  padding: 20px;
+  height: 350px;
+  width: 357px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px 0 rgba(12, 17, 29, 0.14);
+  .nd-chart-tootip-more-mask {
+    top: 0;
+    position: absolute;
+    background: transparent;
+    width: 100%;
+    z-index: -5;
+    height: 100%;
+  }
+  > * {
+    overscroll-behavior: contain;
+  }
+}

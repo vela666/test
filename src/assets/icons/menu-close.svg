@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="收起" transform="translate(-135 -192.5)">
+    <rect id="矩形_1103" data-name="矩形 1103" width="18" height="18" transform="translate(135 192.5)" fill="none"/>
+    <g id="向上收起_fold-up-one_1_" data-name="向上收起_fold-up-one (1)" transform="translate(139.473 207.817) rotate(-90)">
+      <path id="路径_623" data-name="路径 623" d="M12.633.75H0A.75.75,0,0,1-.75,0,.75.75,0,0,1,0-.75H12.633a.75.75,0,0,1,.75.75A.75.75,0,0,1,12.633.75Z" transform="translate(0 -1)"/>
+      <path id="路径_624" data-name="路径 624" d="M12.633.75H0A.75.75,0,0,1-.75,0,.75.75,0,0,1,0-.75H12.633a.75.75,0,0,1,.75.75A.75.75,0,0,1,12.633.75Z" transform="translate(0 2.509)"/>
+      <path id="路径_625" data-name="路径 625" d="M12.633,5.663a.747.747,0,0,1-.46-.158L6.317.95.46,5.505A.75.75,0,0,1-.592,5.373.75.75,0,0,1-.46,4.321L5.856-.592a.75.75,0,0,1,.921,0l6.317,4.913a.75.75,0,0,1-.461,1.342Z" transform="translate(0 5.615)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "appId": "xdcotdscxpgl7wn59kuebteh",
+  "name": "tehfqll6",
+  "displayName": "标签_20240321_143519",
+  "remark": "",
+  "createType": 6,
+  "refreshType": 0,
+  "type": 1,
+  "valueType": 2,
+  "qp": "{\"eventNameDisplay\":\"资源消耗\",\"eventName\":\"resUse\",\"relation\":0,\"propertyName\":\"ceshi_data__currency_type\",\"propertyNameDisplay\":\"任务二二(维度属性)\",\"propertyType\":\"\",\"parentId\":1465,\"analysis\":\"A09\",\"analysisDesc\":\"任务二二(维度属性).去重数\",\"filts\":[{\"filterType\":1,\"relation\":0,\"filts\":[{\"propertyNameDisplay\":\"地区\",\"propertyName\":\"__reg\",\"propertyType\":\"string\",\"parentId\":\"\",\"calcuSymbol\":\"C00\",\"tableType\":1,\"ftv\":[\"美国(US)\"],\"filterType\":0},{\"propertyNameDisplay\":\"游戏版本\",\"propertyName\":\"__current_version\",\"propertyType\":\"string\",\"parentId\":\"\",\"calcuSymbol\":\"C00\",\"tableType\":1,\"ftv\":[\"44\"],\"filterType\":0}]},{\"filterType\":0,\"tableType\":1,\"propertyNameDisplay\":\"操作系统(事件)\",\"propertyName\":\"__platform\",\"propertyType\":\"enum\",\"parentId\":\"\",\"calcuSymbol\":\"C00\",\"ftv\":[\"11\"]}],\"recentDay\":\"-20,-0\",\"startTime\":\"2024-03-01\",\"endTime\":\"2024-03-21\"}",
+  "id": "955"
+}

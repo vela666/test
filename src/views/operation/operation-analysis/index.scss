@@ -1,0 +1,32 @@
+.nd-analysis {
+  .nd-analysis-l,
+  .nd-analysis-r {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: 2px 2px 6px 0 rgba(84, 115, 231, 0.1);
+    height: 420px;
+  }
+  .nd-analysis-l {
+    overflow: hidden;
+    width: 460px;
+  }
+
+  .nd-analysis-r {
+    //width: 100%;
+    flex: 1;
+    gap: 10px;
+    overflow: hidden;
+  }
+
+  .nd-analysis-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1c2028;
+  }
+}
+.nd-analysis-50 {
+  width: calc(50% - 10px);
+}

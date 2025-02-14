@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="40" viewBox="0 0 55 40">
+  <defs>
+    <filter id="路径_614" x="11" y="19.688" width="7" height="16.911" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-color="#1c2028" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="路径_639" x="35.001" y="19.688" width="7" height="16.911" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-color="#1c2028" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="路径_636" x="18.999" y="16.007" width="7" height="20.627" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-3"/>
+      <feFlood flood-color="#1c2028" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="路径_638" x="44" y="16.007" width="7" height="20.627" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-4"/>
+      <feFlood flood-color="#1c2028" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="路径_637" x="27" y="12.338" width="7" height="24.344" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-5"/>
+      <feFlood flood-color="#1c2028" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="暂无数据" transform="translate(-993.626 -430.443)">
+    <rect id="矩形_1053" data-name="矩形 1053" width="50" height="35" rx="4" transform="translate(993.626 430.443)" fill="#5473e8"/>
+    <rect id="矩形_1054" data-name="矩形 1054" width="50" height="35" rx="4" transform="translate(998.626 435.443)" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 993.63, 430.44)" filter="url(#路径_614)">
+      <path id="路径_614-2" data-name="路径 614" d="M0,0H9.911" transform="translate(14.5 22.19) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 993.63, 430.44)" filter="url(#路径_639)">
+      <path id="路径_639-2" data-name="路径 639" d="M0,0H9.911" transform="translate(38.5 22.19) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 993.63, 430.44)" filter="url(#路径_636)">
+      <path id="路径_636-2" data-name="路径 636" d="M0,0H13.627" transform="translate(22.5 18.51) rotate(90)" fill="none" stroke="#ffca85" stroke-linecap="round" stroke-width="4"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 993.63, 430.44)" filter="url(#路径_638)">
+      <path id="路径_638-2" data-name="路径 638" d="M0,0H13.627" transform="translate(47.5 18.51) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 993.63, 430.44)" filter="url(#路径_637)">
+      <path id="路径_637-2" data-name="路径 637" d="M0,0H17.344" transform="translate(30.5 14.84) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

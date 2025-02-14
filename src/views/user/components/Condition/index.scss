@@ -1,0 +1,50 @@
+// src/views/data-management/event/components/Condition/index.vue
+// src/views/user/user-tag/components/Indicator/UserCompletion/index.vue
+// src/views/user/user-tag/components/FirstLastFeature/UserCompletion/index.vue
+// 以上文件在引用
+.nd-condition-content-list {
+  .nd-condition-content-add {
+    //display: flex;
+    display: inline-flex;
+    align-items: center;
+    color: var(--eas-color-primary);
+    cursor: pointer;
+
+    .svg-icon {
+      //vertical-align: text-bottom;
+      font-size: 16px;
+      margin-right: 5px;
+    }
+  }
+}
+
+.nd-event-list {
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;*/
+  > div {
+    display: flex;
+    //align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    /*&:not(.skip) {
+      flex-wrap: wrap;
+    }*/
+
+    &:hover {
+      .nd-filter-operation {
+        visibility: visible;
+      }
+    }
+  }
+}
+.no-permission:hover {
+  color: var(--eas-text-color-light-1) !important;
+  border-color: var(--eas-message-error-text-color) !important;
+}
+
+.nd-filter-operation {
+  display: flex;
+  align-items: flex-start;
+  visibility: hidden;
+}

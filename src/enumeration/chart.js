@@ -1,0 +1,15 @@
+export const chartColor = [
+  '#5473e8',
+  '#1ecc57',
+  '#ff9f24',
+  '#f56c6c',
+  '#59c6f1',
+  '#9b59c2',
+  '#5beabe',
+  '#f99d7e',
+  '#f35787',
+  '#5cd8e6',
+  '#afdc30',
+  '#db5bd2',
+  '#dba85b',
+]

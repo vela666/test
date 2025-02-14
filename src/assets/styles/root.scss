@@ -1,0 +1,46 @@
+// 全局变量
+:root {
+  // 头部宽度（默认自适应宽度，可固定宽度，固定宽度后为居中显示）
+  --eas-header-width: 100%;
+  // 导航栏高度
+  --eas-header-height: 64px;
+  // 导航栏背景颜色
+  --eas-header-bg-color: #fff;
+  // 顶栏高度
+  --eas-topbar-height: 36px;
+  // 菜单栏高度
+  --eas-menubar-height: 40px;
+  // 导航栏左侧宽度 数据看板左侧文件夹看板也适用
+  --eas-header-left-width: 248px;
+  // 侧边栏宽度
+  --eas-main-sidebar-width: 71px;
+  --eas-sub-sidebar-width: 220px;
+  // 最小宽度
+  --nd-width: 1400px;
+}
+
+// 组件库的变量
+:root {
+  // el-menu 菜单设置
+  --el-menu-text-color: var(--eas-text-color);
+  --el-menu-hover-text-color: var(--eas-text-color);
+  --el-menu-bg-color: #fff;
+  --el-border-radius-base: 2px;
+  --el-text-color-placeholder: var(--eas-text-color-light-1);
+  --el-disabled-bg-color: var(--eas-border-color-light);
+  --el-disabled-border-color: var(--eas-border-color);
+  --el-button-disabled-border-color: var(--eas-text-color-light-1);
+  //--el-border-color-light: var(--eas-text-color-light-1);
+  --el-button-disabled-bg-color: var(--eas-border-color-light);
+  --el-fill-color-light: var(--eas-hover-color);
+  --el-menu-icon-width: 0px !important;
+  --el-border-color-lighter: var(--eas-split-line-color) !important;
+  // vxe-table的
+  --vxe-ui-table-column-padding-default: 14px 0 !important;
+  --vxe-ui-table-row-hover-background-color: var(
+    --eas-color-primary-light-1
+  ) !important;
+  --vxe-ui-table-row-height-default: 50px !important;
+  //--vxe-ui-primary-color: var(--eas-color-primary) !important;
+  --vxe-ui-font-primary-color: var(--eas-color-primary) !important;
+}

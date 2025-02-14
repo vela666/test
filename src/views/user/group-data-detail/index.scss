@@ -1,0 +1,52 @@
+// src/views/user/components/UserSequence/Detail.vue
+// src/views/user/group-data-detail/index.vue
+.nd-user-data-detail {
+  height: 100%;
+}
+.nd-name {
+  max-width: 70px;
+}
+.nd-user-data-detail-l {
+  font-size: 14px;
+  padding: 20px 20px 20px 0;
+  width: 300px;
+  background-color: #fff;
+  border-right: 1px solid var(--eas-border-color);
+
+  .nd-base-info-label {
+    min-width: 80px;
+    max-width: 110px;
+  }
+
+  .nd-base-info-value {
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+
+  .nd-user-data-detail-operate {
+    padding-top: 16px;
+    border-top: 1px solid var(--eas-hover-color-4);
+    .line {
+      display: flex;
+      width: 1px;
+      height: 14px;
+      background-color: var(--eas-text-color-light-1);
+    }
+  }
+}
+
+.nd-user-data-detail-r {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+  }
+}

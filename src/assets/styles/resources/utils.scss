@@ -1,0 +1,72 @@
+// 文字超出隐藏，默认为单行超出隐藏，可设置多行
+@mixin text-overflow($line: 1, $fixed-width: true) {
+  @if $line == 1 and $fixed-width == true {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  } @else {
+    /* stylelint-disable-next-line value-no-vendor-prefix */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $line;
+    overflow: hidden;
+  }
+}
+
+@mixin active-bg(
+  $color: var(--eas-color-primary),
+  $bg: var(--eas-svg-hover-color)
+) {
+  width: 1em;
+  min-width: 1em;
+  height: 1em;
+  @include icon-active($color, $bg);
+}
+
+@mixin icon-active(
+  $color: var(--eas-color-primary),
+  $bg: var(--eas-svg-hover-color)
+) {
+  color: $color !important;
+  background-color: $bg !important;
+  border-radius: var(--eas-border-radius) !important;
+}
+
+// 定位居中，默认水平居中，可选择垂直居中，或者水平垂直都居中
+@mixin position-center($type: x) {
+  position: absolute;
+
+  @if $type == x {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @if $type == y {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  @if $type == xy {
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+// 文字两端对齐
+%justify-align {
+  text-align: justify;
+  text-align-last: justify;
+}
+
+// 清除浮动
+%clearfix {
+  zoom: 1;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
